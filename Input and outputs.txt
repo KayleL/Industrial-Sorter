@@ -1,0 +1,76 @@
+ID211 (Digital 1)
+0.00	Start
+0.01	Stop
+0.02
+0.03
+0.04
+0.05
+0.06
+0.07
+0.08
+0.09
+0.10
+0.11
+0.12
+0.13
+0.14
+0.15
+
+ID211 (Digital 1)
+1.00
+1.01
+1.02
+1.03
+1.04
+1.05
+1.06
+1.07
+1.08
+1.09
+1.10
+1.11
+1.12
+1.13
+1.14
+1.15
+
+OC211 (Digital Ralay)
+2.00
+2.01
+2.02
+2.03
+2.04
+2.05
+2.06
+2.07
+2.08
+2.09
+2.10
+2.11
+2.12
+2.13
+2.14
+2.15
+
+Working Bits
+W0.00	Permissive
+W0.01	Goto Rail Position 1
+W0.02	Goto Rail Position 2
+W0.03	Goto Rail Position 3
+W0.04	Goto Rail Position 4
+W0.05	Goto Rail Position 5
+W0.06	Goto Rail Position 6
+W0.07	Goto Rail Position 7
+W0.08	Goto Rail Position 8
+W0.09	Goto Rail Position 9
+W0.10	Goto Rail Position 10
+W0.11	Goto Rail Position 11
+W0.12	Goto Rail Position 12
+W0.13	Goto Rail Position 13
+W0.14	Goto Rail Position 14
+W0.15	Goto Rail Position 15
+W0.16	Goto Rail Position 16
+W0.17	Goto Rail Position 17
+W0.18	Goto Rail Position 18
+W0.19	Goto Rail Position 19
+
