@@ -51,11 +51,10 @@ BEGIN
  Bar[2]:=
  BEGIN
   BarID:=59414;
-  Visible:=0;
-  Pos:="0 0";
+  Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="0 0 0 0";
+  MRUDockPos:="1 5 1280 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
@@ -64,7 +63,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="300 180";
+  MRUHorzDock:="1279 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -129,7 +128,7 @@ BEGIN
   Pos:="0 -2";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="0 -2 300 803";
+  MRUDockPos:="0 -2 300 616";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=8084;
@@ -139,7 +138,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="300 805";
+  MRUVertDock:="300 618";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -179,13 +178,86 @@ ProjectTree:=
 BEGIN
  Item[0]:=0;
  Item[1]:=2;
- Item[2]:=13;
- Item[3]:=14;
+ Item[2]:=12;
+ Item[3]:=13;
  ItemCount:=4;
  Sumcheck:=43;
- Selected:=18;
+ Selected:=17;
 END;
 Frame[0]:=
+BEGIN
+ Norm:="0050 0050 0824 0466";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1!NewProgram1";
+ Type:=7;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[1]:=
+BEGIN
+ Norm:="0075 0075 0849 0491";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1!NewProgram1.Symbols";
+ Type:=3;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+   Extra:=
+   BEGIN
+    Type:="CSymbolTableListCtrlState";
+    Style:=1;
+    NumCols:=7;
+    Width[0]:=150;
+    Width[1]:=90;
+    Width[2]:=100;
+    Width[3]:=1;
+    Width[4]:=84;
+    Width[5]:=48;
+    Width[6]:=200;
+   END;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[2]:=
+BEGIN
+ Norm:="0025 0025 0799 0441";
+ Min:="-001 -001";
+ Path:="C:\Users\lngk0197\Desktop\Industrial-Sorter\industrial_sorter_main.cxp";
+ Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+ Type:=3;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=68;
+   Mag:=1;
+   Extra:=
+   BEGIN
+    Type:="CSymbolTableListCtrlState";
+    Style:=1;
+    NumCols:=7;
+    Width[0]:=150;
+    Width[1]:=90;
+    Width[2]:=100;
+    Width[3]:=1;
+    Width[4]:=150;
+    Width[5]:=48;
+    Width[6]:=200;
+   END;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[3]:=
 BEGIN
  Max:=true;
  Norm:="0000 0000 0720 0549";
@@ -196,11 +268,12 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
+   Yscroll:=15;
   END;
   nViews:=1;
  END;
 END;
-nFrames:=1;
+nFrames:=4;
 WatchWindow:=
 BEGIN
  NumWatch:=3;

@@ -1,12 +1,12 @@
 ID211 (Digital 1)
 0.00	Start
-0.01	Stop
-0.02
-0.03
-0.04
-0.05
-0.06
-0.07
+0.01	Reset
+0.02	Auto Sel
+0.03	Remote
+0.04	Tower 1
+0.05	Tower 2
+0.06	Inductive
+0.07	Photo
 0.08
 0.09
 0.10
@@ -35,16 +35,16 @@ ID211 (Digital 1)
 1.15
 
 OC211 (Digital Ralay)
-2.00
-2.01
-2.02
-2.03
-2.04
-2.05
-2.06
-2.07
-2.08
-2.09
+2.00	Run Light
+2.01	Stop Light
+2.02	C1 Light
+2.03	C2 Light
+2.04	Left Motion
+2.05	Right Motion
+2.06	C1 EXT/RET
+2.07	C2 EXT/RET
+2.08	C1 - Hands
+2.09	C2 - Hands
 2.10
 2.11
 2.12
@@ -52,25 +52,26 @@ OC211 (Digital Ralay)
 2.14
 2.15
 
+MAD42 (Analog I/O)
+2005 Anlg Rise
+2006 Red
+2007 Blue
+2008 Green
+
 Working Bits
 W0.00	Permissive
-W0.01	Goto Rail Position 1
-W0.02	Goto Rail Position 2
-W0.03	Goto Rail Position 3
-W0.04	Goto Rail Position 4
-W0.05	Goto Rail Position 5
-W0.06	Goto Rail Position 6
-W0.07	Goto Rail Position 7
-W0.08	Goto Rail Position 8
-W0.09	Goto Rail Position 9
-W0.10	Goto Rail Position 10
-W0.11	Goto Rail Position 11
-W0.12	Goto Rail Position 12
-W0.13	Goto Rail Position 13
-W0.14	Goto Rail Position 14
-W0.15	Goto Rail Position 15
-W0.16	Goto Rail Position 16
-W0.17	Goto Rail Position 17
-W0.18	Goto Rail Position 18
-W0.19	Goto Rail Position 19
-
+W0.01	Goto Rail Position 0
+W0.02	Goto Rail Position 1
+W0.03	Goto Rail Position 2
+W0.04	Goto Rail Position 3
+W0.05	Goto Rail Position 4
+W0.06	Goto Rail Position 5
+W0.07	Goto Rail Position 6
+W0.08	Goto Rail Position 7
+W0.09	Goto Rail Position 8
+W0.10	Goto Rail Position 9
+W0.11	Goto Rail Position 10
+W0.12	Goto Rail Position 11
+W0.13	Goto Rail Position 12
+W0.14	Goto Rail Position 13
+W0.15	Goto Rail Position 14
