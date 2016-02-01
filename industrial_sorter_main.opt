@@ -6,10 +6,10 @@ BEGIN
   BarID:=59422;
   Bars:=6;
   Bar[0]:=0;
-  Bar[1]:=59415;
-  Bar[2]:=59416;
-  Bar[3]:=59412;
-  Bar[4]:=59414;
+  Bar[1]:=59414;
+  Bar[2]:=59415;
+  Bar[3]:=59416;
+  Bar[4]:=59412;
   Bar[5]:=0;
   Style:=0;
   ExStyle:=0;
@@ -128,7 +128,7 @@ BEGIN
   Pos:="0 -2";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="0 -2 300 616";
+  MRUDockPos:="0 -2 224 616";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=8084;
@@ -138,7 +138,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="300 618";
+  MRUVertDock:="224 618";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -181,20 +181,35 @@ BEGIN
  Item[2]:=12;
  Item[3]:=13;
  ItemCount:=4;
- Sumcheck:=43;
- Selected:=17;
+ Sumcheck:=44;
+ Selected:=18;
 END;
 Frame[0]:=
 BEGIN
- Norm:="0050 0050 0824 0466";
+ Norm:="0025 0025 0799 0441";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1!NewProgram1";
- Type:=7;
+ Path:="C:\Users\lngk0197\Desktop\Industrial-Sorter\industrial_sorter_main.cxp";
+ Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
+ Type:=3;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
+   Yscroll:=78;
    Mag:=1;
+   Extra:=
+   BEGIN
+    Type:="CSymbolTableListCtrlState";
+    Style:=1;
+    NumCols:=7;
+    Width[0]:=150;
+    Width[1]:=90;
+    Width[2]:=100;
+    Width[3]:=1;
+    Width[4]:=150;
+    Width[5]:=48;
+    Width[6]:=200;
+   END;
   END;
   nViews:=1;
  END;
@@ -229,37 +244,35 @@ BEGIN
 END;
 Frame[2]:=
 BEGIN
- Norm:="0025 0025 0799 0441";
+ Norm:="0150 0150 0795 0550";
  Min:="-001 -001";
- Path:="C:\Users\lngk0197\Desktop\Industrial-Sorter\industrial_sorter_main.cxp";
- Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
- Type:=3;
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.END!END";
+ Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=68;
-   Mag:=1;
-   Extra:=
-   BEGIN
-    Type:="CSymbolTableListCtrlState";
-    Style:=1;
-    NumCols:=7;
-    Width[0]:=150;
-    Width[1]:=90;
-    Width[2]:=100;
-    Width[3]:=1;
-    Width[4]:=150;
-    Width[5]:=48;
-    Width[6]:=200;
-   END;
   END;
   nViews:=1;
  END;
 END;
 Frame[3]:=
 BEGIN
- Max:=true;
+ Norm:="0050 0050 0824 0466";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1!NewProgram1";
+ Type:=7;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Mag:=1;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[4]:=
+BEGIN
  Norm:="0000 0000 0720 0549";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Section1!Section1";
@@ -268,12 +281,28 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=15;
+   Yscroll:=29;
   END;
   nViews:=1;
  END;
 END;
-nFrames:=4;
+Frame[5]:=
+BEGIN
+ Max:=true;
+ Norm:="0125 0125 0770 0525";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.ResetProcess!ResetProcess";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=2;
+  END;
+  nViews:=1;
+ END;
+END;
+nFrames:=6;
 WatchWindow:=
 BEGIN
  NumWatch:=3;
