@@ -75,3 +75,8 @@ W0.12	Goto Rail Position 11
 W0.13	Goto Rail Position 12
 W0.14	Goto Rail Position 13
 W0.15	Goto Rail Position 14
+W1.05	Reset Permissive
+W1.06	Digital Stop
+
+W2.00 to W2.15 Reset process
+
